@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  background-color: #fff;
+  padding: 3.1rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.1);
+  max-width: 20rem;
+  width: 100%;
+}
+
+h1 {
+  color: #262626;
+  font-size: 2rem;
+  margin-block-end: 1rem;
+}
+
+.estilo {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  box-sizing: border-box;
+  margin-bottom: 1.3rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.8rem;
+  outline: none;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.estilo:hover {
+  border: 0.2rem solid hsl(104, 29%, 55%);
+}
+
+a {
+  display: block;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  background: hsl(104, 29%, 55%);
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.5s;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+a:hover {
+  background: hsl(104, 40%, 39%);
+}
+
+.radio {
+  margin-bottom: 1rem;
+}
+
+
+
+
